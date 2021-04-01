@@ -1,0 +1,357 @@
+
+.logo{
+    width: 268px;
+    height: 33px;
+}
+a{
+    text-decoration: none 
+}
+li{
+    list-style-type: none;
+}
+.list-nav a{
+    text-decoration: none;  
+}
+
+.list-nav-item-1 a{
+    color: #00b39b;
+}
+.list-nav-item-2 a{
+    color: #ababab;
+}
+.list-nav-item-2 :hover{
+    color: #00b39b;
+}
+
+.list-nav li {
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    list-style-type: none;
+    padding-right:20px ;
+}
+
+ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header{
+    position: sticky;
+    background-color: rgb(250, 252, 248);
+}
+.navigation{
+    box-shadow :0px 2px 5px rgba(66, 66, 66, 0.534);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px;
+    width:1000px;
+
+    top:0px;
+    left: 0px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+}
+main{
+    margin-top: 120px;
+
+    
+}
+body{
+
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+
+}
+.img-h1 img{
+    height: 40px;
+    width: 40px;
+}
+.img-h1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.img-h1 h1{
+    color: #00b39b;
+    font-family:Work Sans,arial,sans-serif;
+    font-size: 38px;
+    font-weight: 100; 
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+.intro p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+
+    color: #747474;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.patients,.doctors,.clinics{
+    height: 350px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    margin-left:10px;
+    padding: 30px 30px 0px 30px;
+    
+}
+select{
+    border: transparent;
+    background-color: transparent;
+    color: white;
+    text-decoration-line: underline;
+    margin-bottom: 30px;
+    
+}
+option{
+    color: #747474;
+}
+.doctors{
+    background-color: #3d83df;
+    color: blanchedalmond;
+    
+}
+.doctors:hover{
+    background-color: #3d83dfe1;
+}
+.patients{
+    background-color: #00ccb1;
+    color: blanchedalmond;
+}
+.patients:hover{
+    background-color: #00ccb1d7;
+}
+.clinics{
+    background-color: #1b2734;
+    color: blanchedalmond;
+}
+.clinics:hover{
+    background-color:#1b2734dc ;
+}
+.slogon{    
+    color: #00b39b;
+
+}
+.logos a svg{
+    width: 171px;
+}
+.logos a path{
+    fill: hsla(0,0%,67%,.7);
+}
+.logos a path:hover{
+    fill:#00b39b;
+
+}
+
+
+.company ul{
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.company{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+.platform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8efaec88;
+    margin-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+   
+    
+    
+}
+.platform .right{
+    display: flex;
+    width: 400px;
+
+
+    
+}
+.platform .right .column1{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.platform .right .column1 div{
+    margin-top: 10px;
+    height: 300px;
+    width: 150px;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius:10px;
+}
+
+.platform .right .column2{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.platform .right .column2 div{
+    margin-top: 10px;
+    height: 300px;
+    width: 150px;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius:10px;
+
+}
+
+.platform .right .column1 div img{
+    height: 50px;
+    width: 50px;
+    padding-left: 45px;
+
+
+
+}
+.platform .right .column2 div img{
+    height: 50px;
+    width: 50px;
+    padding-left: 45px;
+
+}
+.platform .right .column1 div h2{
+    color: #019c88;
+}
+.platform .right .column2 div h2{
+    color: #019c88;
+}
+.platform .left h1{
+    color: #019c88;
+    text-align: center;
+}
+.platform .left p{
+    text-align: center;
+}
+
+.platform .left img{
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+}
+.improve{
+    margin-top: 100px;
+    padding-left: 500px;
+    padding-right: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+
+}
+.improve h2{
+    color: #019c88;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.portfolio{
+    margin-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio .img-container img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.portfolio .img-container{
+    margin: 5px;
+    border-radius: 10px;
+
+    
+}
+.portfolio .img-container .Country{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.portfolio .img-container .Country h5{
+    color: white;
+    background-color: rgba(23, 23, 214, 0.801);
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 10px;
+}
+.portfolio .img-container .Country h4{
+    color: #747474;
+}
+.join{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.join h2{
+    font-family: sans-serif;
+    color: black;
+    font-weight: lighter;
+}
+.join a{
+    background-color:rgba(44, 96, 240, 0.884) ;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    font-size: 13px;
+}
+
+
+
+
+
+
